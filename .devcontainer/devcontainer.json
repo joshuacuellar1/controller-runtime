@@ -1,0 +1,10 @@
+{
+	"name": "go-controller-runtime",
+	"image": "mcr.microsoft.com/devcontainers/go:1.2.0-1.23-bookworm",
+
+	"features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "moby": "false"
+    }
+  }
+}
